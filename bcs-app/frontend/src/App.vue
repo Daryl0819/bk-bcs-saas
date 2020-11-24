@@ -161,7 +161,6 @@
         },
         async created () {
             const platform = window.navigator.platform.toLowerCase()
-            console.log(platform)
             if (platform.indexOf('win') === 0) {
                 this.systemCls = 'win'
             }
